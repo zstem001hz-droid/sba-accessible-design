@@ -1,25 +1,39 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif, Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
 }
+
 h1 {
+  border-radius: 10px 10px 10px 10px;
   text-align: center;
-  background-color:  olive;
+  background-color:  slategray;
   padding: 10px 20px;
 }
+
 .site-header {
+  border-radius: 10px 10px 10px 10px;
   background: #333;
   color: #fff;
   padding: 10px 20px;
 }
+.site-header h4 {
+  text-align: center;
+}
+
+.site-header h1 {
+  letter-spacing: 6px;
+}
+
 .main-nav ul {
-  background-color: aquamarine;
+  border-radius: 10px 10px 10px 10px;
+  background-color: yellow;
   list-style: none;
   display: flex;
   justify-content: space-around;
 }
+
 .content {
   padding: 30px;
 }
@@ -28,33 +42,39 @@ background-color: black;
     color: white;
     padding-left: 30px;
 }
+
 #section2 {
     background-color: greenyellow;
     color: red;
     padding-left: 30px;
 }
+
 #section3 {
     background-color: blue;
     color: white;
     padding-left: 30px;
 }
+
 .container {
   display: flex;
   align-items: center;
     justify-content: center;
   background-color: olive;
 }
+
 .container div {
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
   font-size: 24px;
 }
+
 .site-footer {
   background: #333;
   color: #fff;
   padding: 10px 20px;
 }
+
 @media (max-width: 600px) {
   .main-nav ul {
     flex-direction: column;
