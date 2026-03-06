@@ -27,6 +27,12 @@ h1 {
   margin: 20px;
 }
 
+h4 {
+  font-size: 2rem;
+  text-align: left;
+  color: white;
+}
+
 .hero-textbox h1 {
   width: 350px;
   border-radius: 50px 50px 50px 50px;
@@ -84,9 +90,45 @@ h1 {
 }
 
 .site-footer {
-  background: #333;
+  background-color: #333;
   color: lightblue;
-  padding: 10px 20px;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin-bottom: 6px;
+}
+
+.social-links a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 600px) {
