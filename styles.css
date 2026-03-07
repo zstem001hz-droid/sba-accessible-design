@@ -104,19 +104,7 @@ services-section {
   margin-bottom: 8px;
 }
 
-@media (max-width: 1024px) {
-  .services-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .services-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-//* #flexbox-item {
+/* #flexbox-item {
   font-family: 'Times New Roman', Times, serif;
   width: 640px;
   height: 300px;
@@ -125,7 +113,7 @@ services-section {
   color: black;
   padding-left: 30px;
 }
-*//
+*/
 
 .container {
   display: flex;
@@ -252,5 +240,17 @@ button:hover {
 @media (max-width: 1024px) {
   .container {
     flex-direction: column
+  }
+}
+
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
   }
 }
